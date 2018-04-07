@@ -158,9 +158,12 @@
 	$('body.pages_page_wp-pages-advanced .dashicons-trash-link').on('click', function(){
 		var url, id;
 		url = $(this).attr('href');
-		id = $(this).attr('data-id');
-		$('body.pages_page_wp-pages-advanced ul.wp-pages-advanced-parent li#item_' + id).slideUp('fast').remove();
-		$.post( url );
+    id = $(this).attr('data-id');
+    title = $(this).attr('data-title');
+    if( confirm('You are about to move the page "' + title + '" to trash. Are you sure?') ){
+      $('body.pages_page_wp-pages-advanced ul.wp-pages-advanced-parent li#item_' + id).slideUp('fast').remove();
+      $.post( url );  
+    }
 		return false;
 	});
 	

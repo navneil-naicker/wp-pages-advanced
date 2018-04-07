@@ -3,7 +3,7 @@
 	Plugin Name: WordPress Pages Advanced
 	Plugin URI: https://wordpress.org/plugins/wp-pages-advanced/
 	Description: Structures the pages in WordPress for more robust page adding, edit, sorting and managing. It is more clean you know.
-	Version: 1.0.7
+	Version: 1.0.8
 	Author: Navneil Naicer
 	Author URI: http://www.navz.me
 	License: GPLv2 or later
@@ -30,7 +30,7 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 class navzPageTree{
-	public $version = '1.0.7';
+	public $version = '1.0.8';
 	public $prefix = 'wp-pages-advanced';
 	public $dir;
 	public $url;
@@ -128,7 +128,7 @@ class navzPageTree{
 				}
 				
 				if( current_user_can('delete_others_pages') or current_user_can('administrator') ){
-					$deleteLink = '<a href="' . admin_url('admin-ajax.php') . '?action=AjaxPagesAdvancedPageTreeDelete&_wpnonce=' . $nonce . '&id=' . $post_id . '" class="dashicons-trash-link" data-id="' . $post_id . '"><span class="dashicons dashicons-trash" title="Trash this page"></span></a>';
+					$deleteLink = '<a href="' . admin_url('admin-ajax.php') . '?action=AjaxPagesAdvancedPageTreeDelete&_wpnonce=' . $nonce . '&id=' . $post_id . '" class="dashicons-trash-link" data-id="' . $post_id . '" data-title="' . $post_title . '"><span class="dashicons dashicons-trash" title="Trash this page"></span></a>';
 				} else {
 					$deleteLink = '<a class="dashicons-trash-link wp-page-advanced-link-disabled" disabled><span class="dashicons dashicons-trash" title="You don\'t have permission to delete this page"></span></a>';
 				}

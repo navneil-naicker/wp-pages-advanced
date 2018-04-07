@@ -37,6 +37,9 @@ Your votes really make a difference! Thanks.
 
 == Changelog ==
 
+= 1.0.8 =
+* [Added] Show confirmation dialog before moving the page to trash
+
 = 1.0.7 =
 * [Fixed] Undefined variables
 
