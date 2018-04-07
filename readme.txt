@@ -39,6 +39,7 @@ Your votes really make a difference! Thanks.
 
 = 1.0.8 =
 * [Added] Show confirmation dialog before moving the page to trash
+* [Added] set_time_limit for websites with huge pages
 
 = 1.0.7 =
 * [Fixed] Undefined variables
