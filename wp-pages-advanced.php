@@ -279,6 +279,7 @@ $navzPageTree = new navzPageTree;
 add_action( 'wp_ajax_AjaxAdvancedPageTreeUpdateSortOrder', 'AjaxAdvancedPageTreeUpdateSortOrder' );
 add_action( 'wp_ajax_nopriv_AjaxAdvancedPageTreeUpdateSortOrder', 'AjaxAdvancedPageTreeUpdateSortOrder' );
 function AjaxAdvancedPageTreeUpdateSortOrder(){
+	set_time_limit( 0 );
 	if( current_user_can('publish_pages') ){
 		global $wpdb;
 		$items = array();
@@ -313,7 +314,7 @@ function AjaxPagesAdvancedPageTreeDelete(){
 				wp_update_post(array(
 					'ID' => $post->ID,
 					'post_status' => 'trash'
-        ));
+        		));
 			}
 		} else {
 			wp_update_post(array(
@@ -355,7 +356,6 @@ function wp_page_advanced_add_mulitple_pages(){
 
 function wppa_get_pages( $args = array() ) {
 	global $wpdb;
-
 	$defaults = array(
 		'child_of' => 0, 'sort_order' => 'ASC',
 		'sort_column' => 'post_title', 'hierarchical' => 1,
