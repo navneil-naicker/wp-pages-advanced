@@ -1,27 +1,16 @@
 === WordPress Pages Advanced ===
 Contributors: navzme
-Tags: wordpress, pages, advanced, tree, managing, Structures, multiple, hierarchy, sorting
+Tags: wordpress, pages, advanced, tree, managing, structures, multiple, hierarchy, sorting, custom
 Requires at least: 3.8
-Tested up to: 4.7
-Stable tag: 1.0.8
+Tested up to: 4.9.5
+Requires PHP: 5.3
+Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WordPress Pages Advanced structures the pages in WordPress for more robust page adding, edit, sorting and managing. It is more clean you know.
 
 == Description ==
 WordPress Pages Advanced Structures the pages in WordPress for more robust page adding, edit, sorting and managing. It is more clean you know. You can use this plugin to create multiple hierarchy pages for large websites. WordPress Pages Advanced also enables you to add multiple pages at once making which saves you a lot of time when create individual pages.
-
-= Tested on =
-* Mac Firefox 	:)
-* Mac Safari 	:)
-* Mac Chrome	:)
-* PC Safari 	:)
-* PC Chrome		:)
-* PC Firefox	:)
-* iPhone Safari :)
-* iPad Safari 	:)
-* PC ie7		:S
 
 = Website =
 http://www.navz.me/
