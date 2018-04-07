@@ -1,0 +1,105 @@
+a:active, a:focus, a:hover {
+	border: 0;
+	box-shadow: none;
+}
+.wp-pages-advanced-parent ul {
+	padding: 0px;
+}
+.wp-pages-advanced-parent li {
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	line-height: 37px;
+	height: 37px;
+}
+.wp-pages-advanced-parent a {
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-right: 3px;
+	float: left;
+}
+.wp-pages-advanced-parent .dashicons-minus {
+	color: #FF0004;
+}
+.wp-pages-advanced-parent ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 45px;
+}
+.wp-pages-advanced-parent ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 90px;
+}
+.wp-pages-advanced-parent ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 135px;
+}
+.wp-pages-advanced-parent ul ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 180px;
+}
+.wp-pages-advanced-parent ul ul ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 225px;
+}
+.wp-pages-advanced-parent ul ul ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 270px;
+}
+.wp-pages-advanced-parent ul ul ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 315px;
+}
+.wp-pages-advanced-parent ul ul ul ul ul.wp-pages-advanced-children .dashicons-plus-link {
+	padding-left: 360px;
+}
+.wp-pages-advanced-parent a:hover {
+	color: #e14d43;
+}
+.wp-pages-advanced-children {
+	padding-left: 25px;
+}
+.dashicons-menu-edit-link {
+	display: inline-block;
+}
+.wp-pages-advanced-children {
+	display: none;
+}
+body.pages_page_wp-pages-advanced .subsubsub {
+	width: 100%;
+	margin-bottom: 25px;
+}
+body.pages_page_wp-pages-advanced .dashicons-menu-link {
+	cursor: move;
+}
+body.pages_page_wp-pages-advanced ul.wp-pages-advanced-parent {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+}
+body.pages_page_wp-pages-advanced .sortable-placeholder {
+	background: #D7D7D7;
+	opacity: 1 !important;
+}
+body.pages_page_wp-pages-advanced .wp-pages-advanced-multiple-fat-field {
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	width: 100%;
+	height: auto;
+}
+.page-tree-add-multiple-col-1, .page-tree-add-multiple-col-2 {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+}
+.page-tree-add-multiple-col-1 {
+	width: 48%;
+	padding-right: 5%;
+}
+.page-tree-add-multiple-col-2 {
+	width: 47%;
+}
+body.pages_page_wp-pages-advanced form.search-box {
+	display: inline-block;
+	float: right;
+}
+body.pages_page_wp-pages-advanced .wp-page-advanced-link-disabled, body.pages_page_wp-pages-advanced .wp-page-advanced-link-disabled:hover {
+	color: #ccc;
+}
